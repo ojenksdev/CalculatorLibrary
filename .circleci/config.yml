@@ -10,8 +10,4 @@ jobs:
     steps:
       # Step 1: obtain repo from GitHub
       - checkout
-      # Step 2: run tests
-      - run:
-          name: run tests
-          command: |
-            pytest -v --cov=calculator
+
